@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.button.setOnClickListener {
-            binding.textView.text = "ボタンがタップされました"
+            binding.textView.text = "ボタンがタップされたよ"
         }
     }
 }
